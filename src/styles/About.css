@@ -1,0 +1,27 @@
+.about-section {
+  padding: 4rem 12%;
+  background-color: #fdfdfd;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 900px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #007acc;
+  margin-bottom: 2rem;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1.5rem;
+}

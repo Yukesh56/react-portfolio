@@ -1,9 +1,13 @@
 .home-section {
   display: flex;
+  position: relative;
+  background-image: url('../assets/bg-coding.jpg');
+  background-size: cover;
+  background-position: center;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 8%;
+  padding: 0rem 8%;
   min-height: 100vh;
   background-color: #fdfdfd;
   flex-wrap: wrap;
@@ -71,15 +75,7 @@ h1 {
   max-width: 100%;
   height: auto;
 }
-.home-section {
-  position: relative;
-  background-image: url('../assets/bg-coding.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
+
 .overlay {
   position: absolute;
   inset: 0;
@@ -91,7 +87,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 4rem 8%;
+  padding: 0px 1% 4% 12%;
   max-width: 1200px;
 }
 
